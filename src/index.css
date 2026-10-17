@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Syne', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #060608;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Metallic silver gradient text */
+.text-metallic-silver {
+  background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 35%, #94a3b8 70%, #f1f5f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Chrome highlight border */
+.border-chrome {
+  border-color: rgba(203, 213, 225, 0.2);
+}
+
+.border-chrome-glow {
+  border-color: rgba(168, 85, 247, 0.35);
+  box-shadow: 0 0 25px -5px rgba(147, 51, 234, 0.15);
+}
+
+/* Metallic button sheen effect */
+.bg-silver-metallic {
+  background: linear-gradient(180deg, #e2e8f0 0%, #cbd5e1 50%, #94a3b8 100%);
+}
+
+.bg-dark-surface {
+  background: rgba(13, 13, 18, 0.7);
+  backdrop-filter: blur(16px);
+}

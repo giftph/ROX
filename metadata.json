@@ -1,0 +1,6 @@
+{
+  "name": "ROX Drink - Açaí com Vodka",
+  "description": "Landing page oficial da ROX Drink: Açaí com Vodka em garrafas de 300 ml. Versões com 2%, 4% e 6% de teor alcoólico. Energia, sabor e atitude.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
